@@ -17,7 +17,7 @@ src/proto/*.proto
 
 echo 'Copy files..'
 
-mkdir -p ./build/proto
-cp -r ./src/gRPC/proto/* build/proto
+mkdir -p ./build/gRPC/proto
+cp -r ./src/gRPC/proto/* build/gRPC/proto
 
 echo 'Build Complete 🚀🚀'
