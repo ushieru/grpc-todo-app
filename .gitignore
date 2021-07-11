@@ -1,4 +1,4 @@
-src/proto/
+src/gRPC/proto/
 package-lock.json
 yarn.lock
 build/
