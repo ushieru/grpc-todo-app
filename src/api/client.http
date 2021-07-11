@@ -1,14 +1,15 @@
-GET http://127.0.0.1:3333
+@host = http://127.0.0.1:3333
 
+GET {{host}}
 ### 
 
-POST http://127.0.0.1:3333/todo
+POST {{host}}/todo
 content-type: application/json
 
 {
-    "text": "ba;ar al perro"
+    "text": "Homework"
 }
 
 ###
 
-GET http://127.0.0.1:3333/todos
+GET {{host}}/todos
