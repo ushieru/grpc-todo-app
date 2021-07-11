@@ -15,6 +15,8 @@ proto/*.proto
 -I ./proto \
 proto/*.proto
 
+echo 'Copy resources to build...'
+
 mkdir -p ./build/proto
 cp -r ./src/proto/* build/proto
 
