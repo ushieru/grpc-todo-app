@@ -6,9 +6,7 @@
 
 ```sh
 yarn
-
 sh ./build-protos.sh
-
 yarn build
 ```
 
