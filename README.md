@@ -10,13 +10,13 @@ sh ./build-protos.sh
 yarn build
 ```
 
-## Start server
+#### Start server
 
 ```sh
 yarn start:server
 ```
 
-## Start client
+#### Start client
 
 ```sh
 yarn start:client
