@@ -1,5 +1,8 @@
 #!/bin/bash
 
+BASEDIR=$(dirname "$0")
+cd ${BASEDIR}/../
+
 mkdir -p ./src/gRPC/proto
 
 # Generate in src
