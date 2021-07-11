@@ -1,0 +1,14 @@
+GET http://127.0.0.1:3333
+
+### 
+
+POST http://127.0.0.1:3333/todo
+content-type: application/json
+
+{
+    "text": "ba;ar al perro"
+}
+
+###
+
+GET http://127.0.0.1:3333/todos
