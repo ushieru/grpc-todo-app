@@ -1,5 +1,5 @@
 import DbRepository from './db_repository';
-import { TodoItem } from './../proto/todo_pb';
+import { TodoItem } from '../gRPC/proto/todo_pb';
 
 export default class DB implements DbRepository {
     static database: TodoItem[] = [];

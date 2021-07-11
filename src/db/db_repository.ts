@@ -1,4 +1,4 @@
-import { TodoItem } from './../proto/todo_pb';
+import { TodoItem } from '../gRPC/proto/todo_pb';
 
 export default interface DbRepository {
     getTodos(): TodoItem[];
