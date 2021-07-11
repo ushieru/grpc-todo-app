@@ -1,6 +1,6 @@
 import { fastify } from './server';
 
-fastify.listen(3333, function (err, address) {
+fastify.listen(3333, '0.0.0.0', function (err, address) {
     if (err) {
         fastify.log.error(err)
         process.exit(1)
