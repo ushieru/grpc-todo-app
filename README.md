@@ -1,6 +1,8 @@
 # gRPC - Todo app
     - gRPC
     - Typescript
+    - Fastify
+    - React
 
 ## Instrucciones
 
