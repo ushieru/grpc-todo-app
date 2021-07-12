@@ -5,6 +5,7 @@
 ## Instrucciones
 
 > Aunque no es necesario puede agregar las variables de entorno en los .env
+> uno en ./ y el otro en ./src/client/
 
 ```sh
 sh build-all.sh
