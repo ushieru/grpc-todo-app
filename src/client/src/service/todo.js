@@ -1,4 +1,4 @@
-const API = process.env.REACT_APP_API;
+const API = process.env.REACT_APP_API || 'http://192.168.100.3:3333/';
 
 export const readTodos = () => {
     return new Promise(resolve =>
