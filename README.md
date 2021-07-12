@@ -4,10 +4,10 @@
 
 ## Instrucciones
 
+> Aunque no es necesario puede agregar las variables de entorno en los .env
+
 ```sh
-yarn
-sh ./build-protos.sh
-yarn build
+sh build-all.sh
 ```
 
 #### Start server
@@ -19,5 +19,11 @@ yarn start:server
 #### Start client
 
 ```sh
-yarn start:client
+yarn start:api
 ```
+
+### Start react app
+```sh
+cd build/react
+python -m http.server 3000
+``` 
